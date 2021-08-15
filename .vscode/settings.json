@@ -1961,7 +1961,27 @@
     "keyboards\\crkbd\\keymaps\\*vxid": true,
     "keyboards\\crkbd\\keymaps\\*vxid.*": true,
     "keyboards\\crkbd\\keymaps\\*xyverz": true,
-    "keyboards\\crkbd\\keymaps\\*xyverz.*": true
+    "keyboards\\crkbd\\keymaps\\*xyverz.*": true,
+    "keyboards\\runes": true,
+    "keyboards\\ryanbaekr": true,
+    "keyboards\\spacey": true,
+    "keyboards\\takashicompany": true,
+    "keyboards\\undead60m": true,
+    "keyboards\\pistachio_pro": true,
+    "keyboards\\owl8": true,
+    "keyboards\\matchstickworks": true,
+    "keyboards\\ls_60": true,
+    "keyboards\\ducky": true,
+    "keyboards\\edda": true,
+    "keyboards\\frooastboard": true,
+    "keyboards\\gorthage_truck": true,
+    "keyboards\\irene": true,
+    "keyboards\\aozora": true,
+    "keyboards\\cest73": true,
+    "keyboards\\crkbd\\keymaps\\sulrich": true,
+    "keyboards\\crkbd\\keymaps\\vayashiko": true,
+    "keyboards\\planck\\keymaps\\kuatsure": true,
+    "keyboards\\planck\\keymaps\\rootiest": true
   },
   "files.associations": {
     "*.h": "c",
@@ -1981,5 +2001,6 @@
   "python.formatting.provider": "yapf",
   "[json]": {
     "editor.formatOnSave": false
-  }
+  },
+  "C_Cpp.errorSquiggles": "Disabled"
 }

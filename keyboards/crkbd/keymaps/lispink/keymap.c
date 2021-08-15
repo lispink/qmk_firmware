@@ -100,7 +100,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 // clang-format on
 
 layer_state_t layer_state_set_user(layer_state_t state) {
-    if (default_layer_state == _QWERTYG) {
+    if (default_layer_state == 1UL << _QWERTYG) {
         return update_tri_layer_state(state, _SPEC, _NUMSG, _ADJUST);
     } else {
         return update_tri_layer_state(state, _SPEC, _NUMS, _ADJUST);
@@ -111,7 +111,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
     switch (keycode) {
         case DT_GAME:
             if (record->event.pressed) {
-                if (default_layer_state == _QWERTYG) {
+                if (default_layer_state == 1UL << _QWERTYG) {
                     set_single_persistent_default_layer(_QWERTY);
                 } else {
                     set_single_persistent_default_layer(_QWERTYG);

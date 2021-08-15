@@ -144,7 +144,7 @@ float plover_gb_song[][2] = SONG(PLOVER_GOODBYE_SOUND);
 #endif
 
 layer_state_t layer_state_set_user(layer_state_t state) {
-    if (default_layer_state == _QWERTYG) {
+    if (default_layer_state == 1UL << _QWERTYG) {
         return update_tri_layer_state(state, _SPEC, _NUMSG, _ADJUST);
     } else {
         return update_tri_layer_state(state, _SPEC, _NUMS, _ADJUST);
